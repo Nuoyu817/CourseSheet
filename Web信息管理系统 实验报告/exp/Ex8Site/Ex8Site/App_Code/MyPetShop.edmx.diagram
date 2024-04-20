@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8359cb4ab5cc4ea3a2e0e62a723e1de2" Name="Diagram1">
+        <EntityTypeShape EntityType="MyPetShopModel.CartItem" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPetShopModel.Category" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPetShopModel.Customer" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPetShopModel.Order" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPetShopModel.OrderItem" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPetShopModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyPetShopModel.Supplier" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="MyPetShopModel.FK__CartItem__Custom__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyPetShopModel.FK__CartItem__ProId__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="MyPetShopModel.FK__Product__Categor__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyPetShopModel.FK__Order__CustomerI__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyPetShopModel.FK__OrderItem__Order__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyPetShopModel.FK__Product__SuppId__300424B4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
